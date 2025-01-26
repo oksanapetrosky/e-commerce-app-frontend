@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-36 {
+  height: 100px;
+}
+a.active hr {
+  display: block;
+}
+
+.charm-regular {
+  font-family: "Charm", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charm-bold {
+  font-family: "Charm", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.w-100 {
+  width: 300px;
+  height: 380px;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
