@@ -37,6 +37,7 @@ const Footer = () => {
         <p className="py-5 text-sm text-center text-[#891652]">
           @2024 All copywrites are reserved
         </p>
+        <p>All images in this project are used solely for educational or presentation purposes.</p>
       </div>
     </div>
   );
