@@ -64,15 +64,6 @@ const Navbar = () => {
             alt="profile-icon"
           />
           {/* ---------- Dropdown Menu --------------- */}
-
-          {/* <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4">
-            <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-[#891652] rounded">
-              <p className="cursor-pointer hover:bg-[#FFE7E7] text-[#891652]">My profile</p>
-              <p className="cursor-pointer hover:bg-[#FFE7E7] text-[#891652]">Orders</p>
-              <p onClick={logout} className="cursor-pointer hover:bg-[#FFE7E7] text-[#891652]">Logout</p>
-            </div>
-          </div> */}
-
           {token && (
             <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4">
               <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-[#891652] rounded">
