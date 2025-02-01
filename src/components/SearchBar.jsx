@@ -15,7 +15,6 @@ const SearchBar = () => {
     } else {
       setVisible(false);
     }
-    // console.log("showSearch:", showSearch, "visible:", visible, "search:", search);
   }, [location]);
 
   return showSearch && visible ? (
