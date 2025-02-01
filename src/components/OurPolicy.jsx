@@ -31,7 +31,7 @@ const OurPolicy = () => {
           alt="exchange"
         />
         <p className="font-semibold text-[#891652]">Best Customer Support</p>
-        <p className="text-[#891652]">We provide 27/7 customer support</p>
+        <p className="text-[#891652]">We provide 24/7 customer support</p>
       </div>
     </div>
   );
