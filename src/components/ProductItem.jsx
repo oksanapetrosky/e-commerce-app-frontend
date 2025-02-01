@@ -24,4 +24,4 @@ const ProductItem = ({ id, image, name, price }) => {
 };
 
 export default ProductItem;
-//className="hover:scale-110 transition ease-in-out"
+
